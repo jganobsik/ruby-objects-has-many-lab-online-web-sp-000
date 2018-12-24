@@ -11,7 +11,7 @@ class Author
     post.author = self
   end
     
-  def post_count
+  def Author.post_count
     @@post_total.length  
   end
   
