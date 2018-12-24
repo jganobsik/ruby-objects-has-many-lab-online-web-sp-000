@@ -14,4 +14,8 @@ class Song
   def Song.all 
     @@all 
   end
+  
+  def artist_name
+    @artist
+  end
 end
