@@ -7,6 +7,10 @@ class Song
     @@all << self
   end
   
+  def name 
+    @title
+  end
+  
   def Song.all 
     @@all 
   end
