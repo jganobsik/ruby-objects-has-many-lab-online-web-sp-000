@@ -10,7 +10,7 @@ class Song
     @artist = name
   end
   
-  def name 
+  def Song.name 
     self.title
   end
   
