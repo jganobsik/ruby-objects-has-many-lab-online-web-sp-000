@@ -12,7 +12,7 @@ class Author
   end
     
   def post_count
-    @posts.length 
+    @@post_total.length  
   end
   
      
