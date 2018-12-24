@@ -11,7 +11,7 @@ class Song
   end
   
   def name 
-    @title
+    self.title
   end
   
   def Song.all 
