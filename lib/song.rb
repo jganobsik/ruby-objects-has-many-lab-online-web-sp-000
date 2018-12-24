@@ -7,7 +7,7 @@ class Song
     @@all << name
   end
   
-  def all 
+  def Song.all 
     @@all 
   end
 end
