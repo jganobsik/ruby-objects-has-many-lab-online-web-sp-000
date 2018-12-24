@@ -21,7 +21,6 @@ class Author
     @posts << new_post
     new_post.author =  self
     @@post_total << name
-    new_post.name
   end
   
 end
