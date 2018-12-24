@@ -17,7 +17,7 @@ class Artist
     new_song.artist =  self
   end
   
-  def Artist.song_count
+  def song_count
     self.songs.length 
   end
     
