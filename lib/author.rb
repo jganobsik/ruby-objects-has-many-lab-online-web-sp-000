@@ -20,7 +20,7 @@ class Author
     new_post = Post.new(name)
     @posts << new_post
     new_post.author =  self
-    @@post_count << name
+    @@post_total << name
     new_post.name
   end
   
