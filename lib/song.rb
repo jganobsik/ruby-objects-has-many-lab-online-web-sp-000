@@ -6,4 +6,8 @@ class Song
     @title  = name
     @@all << name
   end
+  
+  def all 
+    @@all 
+  end
 end
